@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#bakgrund{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    background-image: url(../img/jo-jo-wI__5oGrpf4-unsplash.jpg);
+    background-position: center;
+}
+
+#wrapper{
+    height: 200vh;
+    max-width: 100vw;
+    display: grid;
+    grid-template-areas:
+    'lo lo'
+    'me bi'
+    'om bi'
+    'hi bi'
+    ;
+
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+}
+
+#logo{
+    grid-area: lo;
+    background-image: url(../img/roadkill_grill\ logo.png);
+    background-size: 100%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+#bild{
+    grid-area: bi;
+    height: 100%;
+    width: 100%;
+}
+
+#meny{
+    grid-area: me;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#om_oss{
+    grid-area: om;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#hitta_hit{
+    grid-area: hi;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
