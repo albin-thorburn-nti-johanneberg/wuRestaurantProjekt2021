@@ -9,6 +9,23 @@ a{
     text-shadow: 8px 8px black;
 }
 
+#transparent{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+}
+#info{
+    font-family: 'Dancing Script', cursive;
+    color:rgb(255, 255, 255);
+    font-size: 300%;
+    padding: 100px 60px;
+}
+
+#fanart{
+    height: 100vh;
+    width: 100vw;
+}
+
 h1{
     font-family: grillnea;
     font-size: 300%;
@@ -115,14 +132,18 @@ body{
     grid-area: bi;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    background-image: url(../img/bild_downsized.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: grillnea;
 }
 
 #meny{
     grid-area: me;
     height: 100%;
     width: 100%;
-    background-image: url(../img/andrik-langfield-iPNilBHvNvg-unsplash.jpg);
+    background-image: url(../img/meny_downsized.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -134,7 +155,7 @@ body{
     grid-area: om;
     height: 100%;
     width: 100%;
-    background-image: url(../img/michael-browning-MtqG1lWcUw0-unsplash.jpg);
+    background-image: url(../img/om_oss_downsized.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -145,7 +166,7 @@ body{
     grid-area: hi;
     height: 100%;
     width: 100%;
-    background-image: url(../img/henry-perks-BJXAxQ1L7dI-unsplash.jpg);
+    background-image: url(../img/hitta_hit_downsized.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
